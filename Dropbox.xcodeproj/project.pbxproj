@@ -13,6 +13,10 @@
 		CD9029CF1A8195DE005FCD44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9029CE1A8195DE005FCD44 /* Images.xcassets */; };
 		CD9029D21A8195DE005FCD44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9029D01A8195DE005FCD44 /* LaunchScreen.xib */; };
 		CD9029DE1A8195DE005FCD44 /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9029DD1A8195DE005FCD44 /* DropboxTests.swift */; };
+		CD9029E81A81AD6D005FCD44 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9029E71A81AD6D005FCD44 /* SettingsViewController.swift */; };
+		CDC373B71A840B4A00DFE3AF /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC373B61A840B4A00DFE3AF /* TermsViewController.swift */; };
+		CDC373B91A8410E900DFE3AF /* SignInTroubleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC373B81A8410E900DFE3AF /* SignInTroubleViewController.swift */; };
+		CDC373BB1A84192800DFE3AF /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC373BA1A84192800DFE3AF /* NewAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		CD9029D71A8195DE005FCD44 /* DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9029DC1A8195DE005FCD44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9029DD1A8195DE005FCD44 /* DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxTests.swift; sourceTree = "<group>"; };
+		CD9029E71A81AD6D005FCD44 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CDC373B61A840B4A00DFE3AF /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		CDC373B81A8410E900DFE3AF /* SignInTroubleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInTroubleViewController.swift; sourceTree = "<group>"; };
+		CDC373BA1A84192800DFE3AF /* NewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				CD9029CE1A8195DE005FCD44 /* Images.xcassets */,
 				CD9029D01A8195DE005FCD44 /* LaunchScreen.xib */,
 				CD9029C51A8195DD005FCD44 /* Supporting Files */,
+				CD9029E71A81AD6D005FCD44 /* SettingsViewController.swift */,
+				CDC373B61A840B4A00DFE3AF /* TermsViewController.swift */,
+				CDC373B81A8410E900DFE3AF /* SignInTroubleViewController.swift */,
+				CDC373BA1A84192800DFE3AF /* NewAccountViewController.swift */,
 			);
 			path = Dropbox;
 			sourceTree = "<group>";
@@ -213,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9029CA1A8195DE005FCD44 /* ViewController.swift in Sources */,
+				CDC373B91A8410E900DFE3AF /* SignInTroubleViewController.swift in Sources */,
 				CD9029C81A8195DE005FCD44 /* AppDelegate.swift in Sources */,
+				CDC373B71A840B4A00DFE3AF /* TermsViewController.swift in Sources */,
+				CD9029E81A81AD6D005FCD44 /* SettingsViewController.swift in Sources */,
+				CDC373BB1A84192800DFE3AF /* NewAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				CD9029E31A8195DE005FCD44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD9029E41A8195DE005FCD44 /* Build configuration list for PBXNativeTarget "DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				CD9029E61A8195DE005FCD44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
